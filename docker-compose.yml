@@ -1,0 +1,7 @@
+services:
+
+  # Spring Boot Application
+  spring-boot-app:
+    image: exp1spring
+    ports:
+      - "0.0.0.0:8084:8080"
